@@ -10,7 +10,7 @@ let customTimer = (time)=>{
   })
 }
 
-//works as customOf observable
+//works as of  observable
 let customOf = (...args)=>{
   return new Observable((observer)=>{
     args.forEach((value)=>{
